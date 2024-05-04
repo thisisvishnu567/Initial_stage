@@ -7,10 +7,17 @@ white = (255 , 255 , 255)
 black = (0 , 0 , 0)
 red = (255 , 0 , 0)
 
+dis_width = 800
+dis_height = 600
+dis = pygame.display.set_mode((dis_width , dis_height))
+
 game_over = False
 
-x1 = 300
-y1 = 300
+x1 = dis_width/2
+y1 = dis_height/2
+
+snake_block = 10
+
 
 x1_change = 0
 y1_change = 0
